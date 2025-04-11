@@ -14,7 +14,6 @@ module Nurture
 
       if data.empty?
         GitHub.logger.info(
-          
           "error.message" => "No contact emails sent to import job",
         )
       end
